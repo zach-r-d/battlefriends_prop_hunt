@@ -1,0 +1,16 @@
+{
+	"title"		:	"BattleFriends Prop Hunt",
+	"type"		:	"gamemode",
+	"tags"		:	[ ],
+	"ignore"	:
+	[
+		"*.psd",
+		"*.pdn",
+		"*.bat",
+		"*.sh",
+		"*.swp",
+		"*.md",
+		".git*",
+		"icon512.jpg"
+	]
+}

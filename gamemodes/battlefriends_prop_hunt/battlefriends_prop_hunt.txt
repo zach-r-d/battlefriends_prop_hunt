@@ -1,0 +1,207 @@
+"prop_hunt"
+{
+	"base"		"base"
+	"title"		"BattleFriends Prop Hunt"
+	"maps"      "*"
+
+	"fretta_maps"
+    {
+        "1"			"*"
+    }
+    "selectable"    "1"
+        
+	"menusystem"	"1"
+	"workshopid"	"417565863"
+	"settings"
+	{
+		1
+		{
+			"name"		"bph_hunter_fire_penalty"
+			"text"		"Hunter Fire Penality"
+			"help"		"Health points removed from hunters when they shoot"
+			"type"		"Numeric"
+			"default"	"5"
+		}
+
+		2
+		{
+			"name"		"bph_hunter_kill_bonus"
+			"text"		"Hunter Kill Bonus"
+			"help"		"How much health to give back to the Hunter after killing a prop"
+			"type"		"Numeric"
+			"default"	"100"
+		}
+
+		3
+		{
+			"name"		"bph_swap_teams_every_round"
+			"text"		"Swap Teams Every Round"
+			"help"		"Should teams swapped on every round?"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+
+		4
+		{
+			"name"		"bph_game_time"
+			"text"		"Time Left (Mins.)"
+			"help"		"Maxium Time Left (in minutes) - Default is 30 minutes."
+			"type"		"Numeric"
+			"default"	"30"
+		}
+		
+		5
+		{
+			"name"		"bph_hunter_blindlock_time"
+			"text"		"Hunter Blind Time (Sec.)"
+			"help"		"How long hunters are blinded (in seconds)"
+			"type"		"Numeric"
+			"default"	"30"
+		}
+		
+		6
+		{
+			"name"		"bph_round_time"
+			"text"		"Round Time (Sec.)"
+			"help"		"Time (in seconds) for each rounds."
+			"type"		"Numeric"
+			"default"	"300"
+		}
+		
+		7
+		{
+			"name"		"bph_rounds_per_map"
+			"text"		"Rounds per Map (Num.)"
+			"help"		"Numbers played on a map (Default: 10)"
+			"type"		"Numeric"
+			"default"	"10"
+		}
+		
+		8
+		{
+			"name"		"bph_prop_camera_collisions"
+			"text"		"Prop View Collisions"
+			"help"		"Props can/cannot see through walls."
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		9
+		{
+			"name"		"bph_freezecam"
+			"text"		"Freeze Camera"
+			"help"		"Enable freeze cam features? Available only for Prop that attacked by Hunter."
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		10
+		{
+			"name"		"bph_prop_collision"
+			"text"		"Team Props Collision"
+			"help"		"Should Team Props collide with each other?"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		11
+		{
+			"name"		"bph_use_custom_plmodel"
+			"text"		"Hunters Custom Models"
+			"help"		"Should Team Hunters have Custom models?"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		12
+		{
+			"name"		"bph_use_custom_plmodel_for_prop"
+			"text"		"Props Custom Models"
+			"help"		"Should Team Props have Custom models? (Enable for Hunter first!)"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		13
+		{
+			"name"		"bph_enable_custom_taunts"
+			"text"		"Custom Taunts"
+			"help"		"Enable custom taunts Window?"
+			"type"		"Numeric"
+			"default"	"2"
+		}
+		
+		14
+		{
+			"name"		"bph_customtaunts_delay"
+			"text"		"Custom Taunts delay"
+			"help"		"How many times Custom Taunt should be able to played again?"
+			"type"		"Numeric"
+			"default"	"1"
+		}
+
+		15
+		{
+			"name"		"bph_normal_taunt_delay"
+			"text"		"Normal taunts delay"
+			"help"		"How many in seconds delay for props to play normal [F3] taunt again? (Default is 2)"
+			"type"		"Numeric"
+			"default"	"1"
+		}
+		
+		16
+		{
+			"name"		"bph_enable_lucky_balls"
+			"text"		"Enable Lucky Balls"
+			"help"		"If you hate lucky balls, we're sorry. :("
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		17
+		{
+			"name"		"bph_enable_plnames"
+			"text"		"Allow Player Names"
+			"help"		"Serverside control for if a clients see client's team player names through walls."
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		18
+		{
+			"name"		"bph_waitforplayers"
+			"text"		"Wait for Players"
+			"help"		"Should we wait for players for proper round?"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		19
+		{
+			"name"		"bph_min_waitforplayers"
+			"text"		"Minimum Players to wait"
+			"help"		"Numbers of mininum players that we should wait for round start. Value must not contain less than 1."
+			"type"		"Numeric"
+			"default"	"2"
+		}
+
+		20
+		{
+			"name"		"bph_autotaunt_enabled"
+			"text"		"Enable Auto Taunting"
+			"help"		"Should the players be forced to taunt ever X seconds"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+
+		21
+		{
+			"name"		"bph_autotaunt_delay"
+			"text"		"Auto Taunt Timer"
+			"help"		"Time before auto taunt is invoked"
+			"type"		"Numeric"
+			"default"	"45"
+		}
+	}
+
+}
