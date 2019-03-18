@@ -1,7 +1,7 @@
 -- PROP HUNT: ENHANCED CONVARS
 -- Playermodels controls convars
-local mdlprop 	= CreateConVar("bph_use_custom_plmodel_for_prop", "0", { FCVAR_SERVER_CAN_EXECUTE, FCVAR_REPLICATED, FCVAR_ARCHIVE, FCVAR_NOTIFY }, "Should use a custom Player's Model for Props when the round begins?")
-local mdlenable = CreateConVar("bph_use_custom_plmodel", "0", { FCVAR_SERVER_CAN_EXECUTE, FCVAR_REPLICATED, FCVAR_ARCHIVE, FCVAR_NOTIFY }, "Should use a custom player model available for Hunters?\nPlease note that you must have to activate \'bph_use_custom_plmodel_for_prop\' too!")
+local mdlprop 	= CreateConVar("bph_use_custom_plmodel_for_prop", "1", { FCVAR_SERVER_CAN_EXECUTE, FCVAR_REPLICATED, FCVAR_ARCHIVE, FCVAR_NOTIFY }, "Should use a custom Player's Model for Props when the round begins?")
+local mdlenable = CreateConVar("bph_use_custom_plmodel", "1", { FCVAR_SERVER_CAN_EXECUTE, FCVAR_REPLICATED, FCVAR_ARCHIVE, FCVAR_NOTIFY }, "Should use a custom player model available for Hunters?\nPlease note that you must have to activate \'bph_use_custom_plmodel_for_prop\' too!")
 -- Tutorial for ph_use_playermodeltype can be found under FAQ.
 local mdltype	= CreateConVar("ph_use_playermodeltype", "0", {FCVAR_REPLICATED, FCVAR_ARCHIVE, FCVAR_NOTIFY}, "Which model list that should deliver from? 0 = All Playermodels availale, 1 = Use Legacy method: list.Get('PlayerOptionsModel') (Recommended if you want to custom your model list)")
 
